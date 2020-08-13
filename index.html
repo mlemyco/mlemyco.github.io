@@ -3,30 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/274a941fd0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>KOIENSHI | MyCo Le</title>
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="/images/koienshi koi-logo.png"/>
+
+    <!-- CSS SHEET -->
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <!-- GOOGLE FONTS -->
+    <!-- Volkhov (serif) + josefin sans (san-serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Volkhov:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+    <!-- TAB TITLE -->
+    <title>koienshi | MyCo Le</title>
 </head>
 <body>
     <div class="social-medias">
-        <p class="icons">
-            <i class="fab fa-instagram"></i>
-            <br/><i class="fab fa-twitter"></i>
-            <br><i class="fab fa-tumblr"></i>
-            <br><i class="fab fa-github"></i>
-            <br><i class="fas fa-envelope"></i>
-        </p>
-        <p class="media-titles">
-            <div class="media-title">INSTAGRAM</div>
-            <div class="media-title">TWITTER</div>
-            <div class="media-title">TUMBLR</div>
-            <div class="media-title">GITHUB</div>
-            <div class="media-title">EMAIL</div>
-        </p>
+        <ul class="icons">
+            <li><a href="https://www.instagram.com/koienshi/" target="_blank" class="media-icon" data-text="instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com/koienshi/" target="_blank" class="media-icon" data-text="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://koienshi.tumblr.com/" target="_blank" class="media-icon" data-text="tumblr"><i class="fab fa-tumblr"></i></a></li>
+            <li><a href="https://github.com/koienshi" target="_blank" class="media-icon" data-text="github"><i class="fab fa-github"></i></a></li>
+            <li><a href="mailto:koienshiart@gmail.com" target="_blank" class="media-icon" data-text="email"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+            
+        <!-- <div class="media-titles">
+            <a href="" target="_blank" class="media-title">INSTAGRAM</a>
+            <a href="" target="_blank" class="media-title">TWITTER</a>
+            <a href="" target="_blank" class="media-title">TUMBLR</a>
+            <a href="" target="_blank" class="media-title">GITHUB</a>
+            <a href="" target="_blank" class="media-title">EMAIL</a>
+        </div> -->
     </div>
-    <div class="intro">
-        <h1>KOIENSHI</h1>
-        <h2>freelance artist & front-end web developer</h2>
-    </div>
+
+    <section class="block intro-block">
+        <img id="intro-bg" src="/images/shoes.png" alt="">
+        <div class="intro" id="intro-text">
+            <h1>koienshi</h1>
+            <h2>freelance artist & front-end web developer</h2>
+        </div>
+    </section>
+
+    <section class="block programming-block">
+        <img id="programming-bg" src="/images/programming-hands.jpg" alt="">
+    </section>
+
+    <section class="block art-block">
+        <img id="art-bg" src="/images/art-hands.jpg" alt="">
+    </section>
+
+    <section class="block contact-block">
+        <img id="contact-bg" src="/images/contact-hands.jpg" alt="">
+    </section>
+
+
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
