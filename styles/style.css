@@ -118,13 +118,6 @@ section:not(.intro-block) img {
   opacity: 0;
 }
 
-.intro-block {
-  /* background-image: url('/images/shoes.png');
-    background-repeat: no-repeat;
-    background-size: 1000px auto;
-    background-position: 90% 0%; */
-}
-
 .intro-block #intro-bg {
   width: 1000px;
   top: 200px;
